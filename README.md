@@ -4,7 +4,8 @@
     <img src="./docs/onion_connections.png">
 </a>
 
-<hr>
+# Introduction
+Graph and dataset of connections between anion websites.
 
 ### Commit Style
 - ⚙️ NO-TASK

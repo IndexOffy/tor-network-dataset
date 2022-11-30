@@ -1,4 +1,4 @@
-# onion-dataset
+# tor-network-dataset
 
 <a href="./docs/onion_connections.png">
     <img src="./docs/onion_connections.png">
@@ -29,5 +29,5 @@ Graph and dataset of connections between anion websites.
 - 📦 PyPI
 
 **RESOURCES**
-- GitHub: https://github.com/IndexOffy/onion-dataset
+- GitHub: https://github.com/IndexOffy/tor-network-dataset
 - Docs:   http://www.indexoffy.com/

@@ -10,7 +10,7 @@ onion.add_nodes_from(nodes_list)
 onion.add_edges_from(nodes_connections)
 
 options = {
-    'font_size': 9,
+    'font_size': 5,
     'linewidths': 11, 
     'node_size': 50,
     'width': 1,

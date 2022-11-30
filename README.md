@@ -1,4 +1,4 @@
-# onion-graphic
+# onion-dataset
 
 <a href="./docs/onion_connections.png">
     <img src="./docs/onion_connections.png">
@@ -21,5 +21,5 @@ Graph and dataset of connections between anion websites.
 - 📦 PyPI
 
 **RESOURCES**
-- GitHub: https://github.com/IndexOffy/onion-graphic
+- GitHub: https://github.com/IndexOffy/onion-dataset
 - Docs:   http://www.indexoffy.com/

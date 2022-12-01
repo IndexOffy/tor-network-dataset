@@ -11,10 +11,10 @@ def mega_data():
     nodes = []
     nodes_connections = []
     limit_page = False
-    skip = 0
+    offset = 0
 
     while limit_page == False:
-        params = dict(limit=100, skip=skip)
+        params = dict(limit=100, offset=offset)
         response = request(method="GET", url=url, params=params)
 
         if response.status_code != 200:
@@ -27,7 +27,7 @@ def mega_data():
                 nodes.append(item.get("id_href"))
                 nodes_connections.append((item.get("id_link"), item.get("id_href")))
 
-            skip += 100
+            offset += 100
 
     nodes = set(nodes)
 
@@ -37,7 +37,7 @@ def mega_data():
 def mini_data():
     nodes = []
     nodes_connections = []
-    params = dict(limit=25, skip=0)
+    params = dict(limit=25, offset=0)
     response = request(method="GET", url=url, params=params)
     data = response.json()
 

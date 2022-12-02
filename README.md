@@ -17,8 +17,6 @@ Graph and dataset of connections between anion websites.
 
 ## Initial dataset
 
-**To access the complete dataset with link and references, please contact us.**
-
 - Download Links - [_link.csv](/docs/dataset/_link.csv)
 - Download Connections - [_connection.csv](/docs/dataset/_connection.csv)
 

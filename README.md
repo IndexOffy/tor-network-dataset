@@ -17,7 +17,7 @@ Graph and dataset of connections between anion websites.
 
 ## Initial dataset
 
-- Link - [_connection.csv](https://raw.githubusercontent.com/IndexOffy/onion-dataset/master/docs/dataset/_connection.csv?token=GHSAT0AAAAAABZV3EC34YJ7ODSS3WZ5N756Y4GZAJQ)
+- Link - [_connection.csv](https://raw.githubusercontent.com/IndexOffy/onion-dataset/master/docs/dataset/_connection.csv?token=GHSAT0AAAAAABZV3EC34YJ7ODSS3WZ5N756Y4GZAJQ) (To access the complete dataset with link and references, please contact us.)
 
 
 ### Commit Style

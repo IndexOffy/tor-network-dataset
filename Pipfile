@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "==3.6.2"
+networkx = "==2.8.8"
+requests = "==2.28.1"
+scipy = "==1.9.3"
+python-dotenv = "==0.21.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

@@ -8,6 +8,10 @@
    ██║   ╚██████╔╝██║  ██║      ██║ ╚████║███████╗   ██║   ╚███╔███╔╝╚██████╔╝██║  ██║██║  ██╗
    ╚═╝    ╚═════╝ ╚═╝  ╚═╝      ╚═╝  ╚═══╝╚══════╝   ╚═╝    ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ v1.0
  ```
+
+![GitHub Org's stars](https://img.shields.io/github/stars/IndexOffy?label=IndexOffy&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/IndexOffy/tor-network-dataset?style=flat-square)
+![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/IndexOffy/tor-network-dataset?style=flat-square)
  
 ## Introduction
 Graph and dataset of connections between anion websites.

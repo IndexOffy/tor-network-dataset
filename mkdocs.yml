@@ -1,0 +1,9 @@
+site_name: Onion Network Dataset
+repo_url: https://github.com/IndexOffy/onion-network-dataset
+copyright: IndexOffy
+
+nav:
+    - onion-network-dataset: index.md
+
+theme: 
+    name: simple-blog

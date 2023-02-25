@@ -1,7 +1,7 @@
-# onion-network-dataset
+# tor-network-dataset
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/IndexOffy?label=IndexOffy&style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/IndexOffy/onion-network-dataset?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/IndexOffy/tor-network-dataset?style=flat-square)
 
 ## Introduction
 
@@ -33,11 +33,11 @@ Database of onion network sites and graphs related to connections.
 
 ### License
 
-![GitHub](https://img.shields.io/github/license/IndexOffy/onion-network-dataset?style=flat-square)
+![GitHub](https://img.shields.io/github/license/IndexOffy/tor-network-dataset?style=flat-square)
 
 This project is licensed under the terms of the MIT license.
 
 **RESOURCES**
 
-- GitHub: [https://github.com/IndexOffy/onion-network-dataset](https://github.com/IndexOffy/onion-network-dataset)
+- GitHub: [https://github.com/IndexOffy/tor-network-dataset](https://github.com/IndexOffy/tor-network-dataset)
 - Docs:   [http://www.indexoffy.com/](http://www.indexoffy.com/)

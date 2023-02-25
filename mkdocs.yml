@@ -1,9 +1,14 @@
-site_name: Onion Network Dataset
+site_name: Tor Network Dataset
 repo_url: https://github.com/IndexOffy/onion-network-dataset
 copyright: IndexOffy
 
 nav:
-    - onion-network-dataset: index.md
+    - Home: index.md
+    - Tor Network: nav/tor-network.md
+    - Development:
+      - nav/development/development-guide.md
+      - nav/development/release-notes.md
+
 
 theme: 
     name: simple-blog

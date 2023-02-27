@@ -9,11 +9,11 @@ Database of onion network sites and graphs related to connections.
 
 ## Project objectives:
 
-- Answer the question of how many sites are possible to discover through scraping.
+- Build a database through tor network link data scraping.
 - Graph relationships between onion network sites.
 - Provide a complete list of discovered sites.
-- Apply machine learning techniques to categorize websites based on content.
-- Apply ranking techniques to provide a search engine.
+- Apply machine learning techniques to categorize websites based on your data.
+- Apply ranking techniques to provide a search engine for onion sites.
 
 ### Initial dataset
 

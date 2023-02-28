@@ -13,6 +13,15 @@ Database of onion network sites and graphs related to connections.
 - Apply machine learning techniques to categorize websites based on your data.
 - Apply ranking techniques to provide a search engine for onion sites.
 
+## Info:
+
+- [Is it legal to enter dark web?](/nav/info)
+- [What is darknet?](/nav/info)
+- [What is Tor?](/nav/info)
+- [How Tor works?](/nav/info)
+- [What are hidden services?](/nav/info)
+- [Who created Tor?](/nav/info)
+
 ### Initial dataset
 
 - Download Links - [_link.csv](#)

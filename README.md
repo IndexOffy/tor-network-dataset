@@ -15,6 +15,15 @@ Database of onion network sites and graphs related to connections.
 - Apply machine learning techniques to categorize websites based on your data.
 - Apply ranking techniques to provide a search engine for onion sites.
 
+## Info:
+
+- [Is it legal to enter dark web?](https://indexoffy.github.io/tor-network-dataset/nav/info/)
+- [What is darknet?](https://indexoffy.github.io/tor-network-dataset/nav/info/)
+- [What is Tor?](https://indexoffy.github.io/tor-network-dataset/nav/info/)
+- [How Tor works?](https://indexoffy.github.io/tor-network-dataset/nav/info/)
+- [What are hidden services?](https://indexoffy.github.io/tor-network-dataset/nav/info/)
+- [Who created Tor?](https://indexoffy.github.io/tor-network-dataset/nav/info/)
+
 ### Initial dataset
 
 - Download Links - [_link.csv](#)

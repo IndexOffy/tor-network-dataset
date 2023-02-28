@@ -5,6 +5,7 @@ repo_url: https://github.com/IndexOffy/tor-network-dataset
 
 nav:
     - Home: index.md
+    - Info: nav/info.md
     - Graphic: nav/graphic.md
     - Development:
       - nav/development/development-guide.md

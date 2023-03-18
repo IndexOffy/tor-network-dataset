@@ -1,7 +1,7 @@
 name: 📘 Update Docs
 
 on:
-  pull_request:
+  push:
     branches: [ "docs" ]
 
 permissions: write-all

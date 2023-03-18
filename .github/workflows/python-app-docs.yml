@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "docs" ]
 
-permissions: read-all
+permissions: write-all
 
 jobs:
   deployment:

@@ -13,8 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.PAT }}
 
     - name: ⚙️ Set up Python 3.10
       uses: actions/setup-python@v3
@@ -30,12 +28,4 @@ jobs:
       run: |
         git config user.name "FernandoCelmer"
         git config user.email "email@fernandocelmer.com"
-
-    - name: ⚙️ Commit report
-      run: |
-        echo "Commit Report" >> report.txt
-        git add report.txt
-        git commit -m "⚙️ REPORT - Update"
-        git push
-
 

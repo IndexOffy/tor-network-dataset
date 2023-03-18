@@ -13,20 +13,29 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.PAT }}
+
     - name: ⚙️ Set up Python 3.10
       uses: actions/setup-python@v3
       with:
         python-version: "3.10"
+
     - name: ⚙️ Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt --no-cache-dir
+
     - name: ⚙️ Setup git config
       run: |
         git config user.name "FernandoCelmer"
         git config user.email "email@fernandocelmer.com"
-    - name: 📘 Update Docs
+
+    - name: ⚙️ Commit report
       run: |
-        mkdocs gh-deploy
+        echo "Commit Report" >> report.txt
+        git add report.txt
+        git commit -m "⚙️ REPORT - Update"
+        git push
 
 

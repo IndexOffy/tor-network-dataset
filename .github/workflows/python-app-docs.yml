@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [ "docs" ]
 
-permissions: read-all
+permissions: write-all
 
 jobs:
   deployment:
@@ -25,19 +25,20 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt --no-cache-dir
-    - name: 📘 Build Docs
+
+    - name: ⚙️ Setup git config
       run: |
         mkdocs build
 
     - name: 📘 Update Docs
       run: |
-        git config user.name "FernandoCelmer"
-        git config user.email "email@fernandocelmer.com"
         mkdocs gh-deploy
 
     - name: ⚙️ Commit report
       run: |
         echo "Commit Report" >> report.txt
+        git config user.name "FernandoCelmer"
+        git config user.email "email@fernandocelmer.com"
         git add report.txt
-        git commit -m "⚙️ REPORT - Update"
+        git commit -m "⬆️ CI: report.txt"
         git push

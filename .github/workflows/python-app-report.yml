@@ -1,0 +1,24 @@
+name: 📘 Update Docs
+
+on:
+  pull_request:
+    branches: [ "docs" ]
+
+permissions: write-all
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    environment: develop
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.PAT }}
+
+    - name: ⚙️ Commit report
+      run: |
+        echo "Commit Report" >> report.txt
+        git add report.txt
+        git commit -m "⬆️ CI: report.txt"
+        git push

@@ -38,6 +38,7 @@ Database of onion network sites and graphs related to connections.
 - 📘 DOCS
 - 📦 BUILD
 - ❤️️ TEST
+- ⬆️ CI
 - ⚠️ SECURITY
 
 ### License

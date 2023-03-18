@@ -1,0 +1,30 @@
+name: 📘 Update Docs
+
+on:
+  push:
+    branches: [ "docs" ]
+
+permissions: write-all
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    environment: develop
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.PAT }}
+
+    - name: ⚙️ Setup git config
+      run: |
+        git config --global user.name "FernandoCelmer"
+        git config --global user.email "email@fernandocelmer.com"
+
+    - name: ⚙️ Commit report
+      run: |
+        git pull origin develop --rebase
+        echo "Commit Report" >> report.txt
+        git add report.txt
+        git commit -m "⬆️ CI: report.txt"
+        git push origin HEAD develop

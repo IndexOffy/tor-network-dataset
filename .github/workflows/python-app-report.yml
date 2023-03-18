@@ -18,13 +18,13 @@ jobs:
 
     - name: ⚙️ Setup git config
       run: |
-        git config user.name "FernandoCelmer"
-        git config user.email "email@fernandocelmer.com"
+        git config --global user.name "FernandoCelmer"
+        git config --global user.email "email@fernandocelmer.com"
 
     - name: ⚙️ Commit report
       run: |
-        git checkout develop
+        git pull origin develop --rebase
         echo "Commit Report" >> report.txt
         git add report.txt
         git commit -m "⬆️ CI: report.txt"
-        git push
+        git push origin HEAD develop

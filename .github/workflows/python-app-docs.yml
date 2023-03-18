@@ -1,7 +1,7 @@
 name: 📘 Update Docs
 
 on:
-  push:
+  pull_request:
     branches: [ "docs" ]
 
 permissions: write-all
@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.PAT }}
 
     - name: ⚙️ Set up Python 3.10
       uses: actions/setup-python@v3
@@ -26,6 +28,17 @@ jobs:
 
     - name: ⚙️ Setup git config
       run: |
+        mkdocs build
+
+    - name: 📘 Update Docs
+      run: |
+        mkdocs gh-deploy
+
+    - name: ⚙️ Commit report
+      run: |
+        echo "Commit Report" >> report.txt
         git config user.name "FernandoCelmer"
         git config user.email "email@fernandocelmer.com"
-
+        git add report.txt
+        git commit -m "⬆️ CI: report.txt"
+        git push

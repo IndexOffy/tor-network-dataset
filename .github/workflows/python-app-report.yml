@@ -23,7 +23,7 @@ jobs:
 
     - name: ⚙️ Commit report
       run: |
-        git pull origin develop
+        git fetch origin develop
         echo "Commit Report" >> report.txt
         git add report.txt
         git commit -m "⬆️ CI: report.txt"

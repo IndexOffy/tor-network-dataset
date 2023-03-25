@@ -7,21 +7,21 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <meta name="description" content="None">
-            <link rel="canonical" href="http://www.indexoffy.com/">
+            
+            
             
 
             
-                <link  rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+                <link  rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
             
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
                         <script>hljs.initHighlightingOnLoad();</script>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-            <link rel="stylesheet" href="assets/stylesheets/theme.css">
-            <link rel="stylesheet" href="assets/stylesheets/styles.css">
-                <script src="search/main.js"></script>
+            <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="./assets/stylesheets/theme.css">
+            <link rel="stylesheet" href="./assets/stylesheets/styles.css">
+                <script src="./search/main.js"></script>
 
             
                 
@@ -55,16 +55,16 @@
         <li class="nav-item" id="component-menu">
             <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class=" active 
-                            nav-link text-gray text-decoration-none" href=".">[Home]</a>
+                            <a class="
+                            nav-link text-gray text-decoration-none" href="./.">[Home]</a>
                         </li>
                         <li class="nav-item">
                             <a class="
-                            nav-link text-gray text-decoration-none" href="nav/info/">[Info]</a>
+                            nav-link text-gray text-decoration-none" href="./nav/info/">[Info]</a>
                         </li>
                         <li class="nav-item">
                             <a class="
-                            nav-link text-gray text-decoration-none" href="nav/graphic/">[Graphic]</a>
+                            nav-link text-gray text-decoration-none" href="./nav/graphic/">[Graphic]</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="
@@ -72,12 +72,12 @@
                             <ul class="dropdown-menu">
                                     <!-- block dropdown-menu -->
     <li>
-        <a href="nav/development/development-guide/" class="dropdown-item text-decoration-none ">Development guide</a>
+        <a href="./nav/development/development-guide/" class="dropdown-item text-decoration-none ">Development guide</a>
     </li>
 <!-- endblock -->
                                     <!-- block dropdown-menu -->
     <li>
-        <a href="nav/development/release-notes/" class="dropdown-item text-decoration-none ">Release notes</a>
+        <a href="./nav/development/release-notes/" class="dropdown-item text-decoration-none ">Release notes</a>
     </li>
 <!-- endblock -->
                             </ul>
@@ -157,79 +157,31 @@
     </div>
 </div>
 <!-- endblock -->
-                    <!-- block content -->
-<section class="container post">
-    <article>
-        <header>
-            
-                <h1 class=" title" id="component-title">Home</h1>
-            
-        </header>
-        <p><p><img alt="GitHub Org's stars" src="https://img.shields.io/github/stars/IndexOffy?label=IndexOffy&amp;style=flat-square" />
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/IndexOffy/onion-network-dataset?style=flat-square" /></p>
-<h2 id="introduction">Introduction</h2>
-<p>Database of onion network sites and graphs related to connections.</p>
-<h2 id="project-objectives">Project objectives:</h2>
-<ul>
-<li>Build a database through tor network link data scraping.</li>
-<li>Graph relationships between onion network sites.</li>
-<li>Provide a complete list of discovered sites.</li>
-<li>Apply machine learning techniques to categorize websites based on your data.</li>
-<li>Apply ranking techniques to provide a search engine for onion sites.</li>
-</ul>
-<h2 id="info">Info:</h2>
-<ul>
-<li><a href="/nav/info">Is it legal to enter dark web?</a></li>
-<li><a href="/nav/info">What is darknet?</a></li>
-<li><a href="/nav/info">What is Tor?</a></li>
-<li><a href="/nav/info">How Tor works?</a></li>
-<li><a href="/nav/info">What are hidden services?</a></li>
-<li><a href="/nav/info">Who created Tor?</a></li>
-</ul>
-<h3 id="initial-dataset">Initial dataset</h3>
-<ul>
-<li>Download Links - <a href="#">_link.csv</a></li>
-<li>Download Connections - <a href="#">_connection.csv</a></li>
-</ul>
-<h3 id="commit-style">Commit Style</h3>
-<ul>
-<li>⚙️ NO-TASK</li>
-<li>📝 PEP8</li>
-<li>📌 ISSUE</li>
-<li>🪲 BUG</li>
-<li>📘 DOCS</li>
-<li>📦 BUILD</li>
-<li>❤️️ TEST</li>
-<li>⚠️ SECURITY</li>
-</ul>
-<h3 id="license">License</h3>
-<p><img alt="GitHub" src="https://img.shields.io/github/license/IndexOffy/onion-network-dataset?style=flat-square" /></p>
-<p>This project is licensed under the terms of the MIT license.</p>
-<p><strong>RESOURCES</strong></p>
-<ul>
-<li>GitHub: <a href="https://github.com/IndexOffy/onion-network-dataset">https://github.com/IndexOffy/onion-network-dataset</a></li>
-<li>Docs:   <a href="http://www.indexoffy.com/">http://www.indexoffy.com/</a></li>
-</ul></p>
-    </article>
-</section>
-<!-- endblock -->
+    <!-- block search -->
+	<section class="p-md-5 content-search">
+		<article class="search-box">
+			<p></p>
+			<h1 id="search">Search Results</h1>
+			<hr>
+
+			<form id="content_search" action="search.html">
+				<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+				<input name="q" id="mkdocs-search-query" type="text" class="search-query search_input search-query ui-autocomplete-input"
+					placeholder="Search the Docs" autocomplete="off" autofocus title="Type search term here">
+			</form>
+
+			<div id="mkdocs-search-results" class="search-results" data-no-results-text="No results found">
+				Searching...
+			</div>
+
+		</article>
+	</section>
+    <!-- endblock -->
+
             </main>
 
             
                     <!-- block preview -->
-        <div class="row row-cols-md-3 text-center pt-md-3" id="component-preview">
-            <div class="col themed-grid-col">
-                <a rel="prev" class="nav-link disabled">
-                    <i class="fa fa-arrow-left"></i> Previous
-                </a>
-            </div>
-            <div class="col themed-grid-col"></div>
-            <div class="col themed-grid-col">
-                <a rel="next" href="nav/info/" class="nav-link">
-                    Next <i class="fa fa-arrow-right"></i>
-                </a>
-            </div>
-        </div>
 <!-- endblock -->
             
 
@@ -256,10 +208,10 @@
         </div>
 
             <script>var base_url = '.';</script>
-            <script src="assets/js/jquery-3.3.1.slim.min.js""></script>
-            <script src="assets/js/bootstrap.bundle.min.js""></script>
-            <script src="assets/js/theme.js""></script>
-                <script src="search/main.js" defer></script>
+            <script src="./assets/js/jquery-3.3.1.slim.min.js""></script>
+            <script src="./assets/js/bootstrap.bundle.min.js""></script>
+            <script src="./assets/js/theme.js""></script>
+                <script src="./search/main.js" defer></script>
 
     </body>
 

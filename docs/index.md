@@ -29,13 +29,14 @@ Database of onion network sites and graphs related to connections.
 
 ### Commit Style
 
-- ⚙️ NO-TASK
+- ⚙️ FEATURE
 - 📝 PEP8
 - 📌 ISSUE
 - 🪲 BUG
 - 📘 DOCS
 - 📦 BUILD
 - ❤️️ TEST
+- ⬆️ CI/CD
 - ⚠️ SECURITY
 
 ### License

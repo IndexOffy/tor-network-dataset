@@ -12,5 +12,5 @@ nav:
       - nav/development/release-notes.md
 
 theme: 
-    name: dracula
+    name: simple-blog
     logo: assets/logo.jpeg

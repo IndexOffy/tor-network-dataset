@@ -15,12 +15,12 @@ Database of onion network sites and graphs related to connections.
 
 ## Info:
 
-- [Is it legal to enter dark web?](/nav/info)
-- [What is darknet?](/nav/info)
-- [What is Tor?](/nav/info)
-- [How Tor works?](/nav/info)
-- [What are hidden services?](/nav/info)
-- [Who created Tor?](/nav/info)
+- [Is it legal to enter dark web?](/tor-network-dataset/nav/info/)
+- [What is darknet?](/tor-network-dataset/nav/info/)
+- [What is Tor?](/tor-network-dataset/nav/info/)
+- [How Tor works?](/tor-network-dataset/nav/info/)
+- [What are hidden services?](/tor-network-dataset/nav/info/)
+- [Who created Tor?](/tor-network-dataset/nav/info/)
 
 ### Initial dataset
 

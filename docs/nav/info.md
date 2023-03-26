@@ -1,3 +1,5 @@
+---
+
 ## Is it legal to enter dark web?
 
 Using Tor is legal in most countries. It’s illegal to perform certain activities, depending on your residency these may include: buying or selling drugs, weapons, counterfeit money, abusive materials etc.

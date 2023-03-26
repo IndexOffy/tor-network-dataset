@@ -1,4 +1,6 @@
-### Commit Style
+---
+
+## Commit Style
 
 - ⚙️ FEATURE
 - 📝 PEP8

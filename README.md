@@ -45,7 +45,7 @@ Database of onion network sites and graphs related to connections.
 
 ![GitHub](https://img.shields.io/github/license/IndexOffy/tor-network-dataset?style=flat-square)
 
-This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the GPL-3.0 license.
 
 **RESOURCES**
 

@@ -1,6 +1,3 @@
----
-
-
 ![GitHub Org's stars](https://img.shields.io/github/stars/IndexOffy?label=IndexOffy&style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/IndexOffy/onion-network-dataset?style=flat-square)
 
@@ -44,9 +41,9 @@ Database of onion network sites and graphs related to connections.
 
 ### License
 
-![GitHub](https://img.shields.io/github/license/IndexOffy/onion-network-dataset?style=flat-square)
+![GitHub](https://img.shields.io/github/license/IndexOffy/tor-network-dataset?style=flat-square)
 
-This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the GPL-3.0 license.
 
 **RESOURCES**
 
